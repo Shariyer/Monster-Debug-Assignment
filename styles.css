@@ -209,3 +209,15 @@ button {
     flex-direction: column;
   }
 }
+@media only screen and (min-width:701px){
+
+    .grid-layout{
+      
+      display: grid  !important;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+    }
+   .card {
+     flex-direction: column;
+    }
+}
