@@ -127,8 +127,8 @@ const start = () => {
 
 
 // START Countdown
-//  document.getElementById('starts').addEventListener("click", start);
-btnstart.addEventListener("click", start);
+ document.getElementById('starts').addEventListener("click", start);
+// btnstart.addEventListener("click", start);
 
 // If history exists, show it
 displayHistory();
