@@ -182,6 +182,24 @@ button {
   left: 305px;
 }
 
+.question-answer{
+  text-decoration: none;
+  padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #171717;
+    border-radius: 10px;
+    border: 2px solid #9dffad;
+    cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
