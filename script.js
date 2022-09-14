@@ -99,6 +99,7 @@ const gameOver = () => {
 const closeModal = () => {
   modalBackground.classList.toggle("hidden");
   resultModal.classList.toggle("hidden");
+  history.go(0);
 };
 
 const start = () => {
